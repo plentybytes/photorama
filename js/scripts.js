@@ -96,8 +96,8 @@
 			images: gallery_set,
 			frames_per_second: 0.2,
 			display_time: 5000,
-			fade_time: 1000,
-			zoom: 0,
+			fade_time: 2000,
+			zoom: 1,
 			background_color:'#F7F6F5'
 		});
 	}
