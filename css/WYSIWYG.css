@@ -9,7 +9,7 @@ body #content > .wrapper { padding: 3em 4.5% 0; }
 
 /* Layouts */
 body.fullscreen { max-height: 100%; overflow-y: hidden; overflow-x: hidden; background: #fff; }
-body.fullscreen #content { height: 100vh; overflow: hidden; }
+body.fullscreen #content { height: 100vh; overflow: hidden; margin:10px}
 body.fullscreen #content > .wrapper { padding: 0; }
 
 .landing-fullscreen  {background: #fff; }
@@ -24,7 +24,6 @@ body.fullscreen .position-absolute { color: #dddddd;  bottom: 0; left: 0; width:
 
 /*galleries adapted*/
 .masonry-gallery .gallery-item { width: 47.5% !important; }
-.fullscreen-gallery.kenburns-gallery {margin: 10px; }
 .fullscreen-gallery.kenburns-gallery canvas { position: relative; }
 .fullscreen-gallery .gallery-caption .entry-summary { padding-bottom: 1.5em; }
 .vertical-gallery.gallery { height: 400px; margin-top: 2em; }
