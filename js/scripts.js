@@ -94,10 +94,10 @@
 		jQuery('#kenburns').attr('height', jQuery(window).height());
 		jQuery('#kenburns').kenburns({
 			images: gallery_set,
-			frames_per_second: 30,
+			frames_per_second: 1,
 			display_time: 5000,
-			fade_time: 1000,
-			zoom: 1,
+			fade_time: 0,
+			zoom: 0,
 			background_color:'#F7F6F5'
 		});
 	}
