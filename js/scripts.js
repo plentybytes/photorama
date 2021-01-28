@@ -94,7 +94,7 @@
 		jQuery('#kenburns').attr('height', jQuery(window).height());
 		jQuery('#kenburns').kenburns({
 			images: gallery_set,
-			frames_per_second: 1,
+			frames_per_second: 0,
 			display_time: 5000,
 			fade_time: 0,
 			zoom: 0,
