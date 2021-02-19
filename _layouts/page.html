@@ -4,7 +4,13 @@ layout: default
 
 <!-- Page Header -->
 <header class="intro-header"
-        style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+        style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
+                background: -moz-linear-gradient(top, #ffffff00 50%, #f4f4f400 70%, #f4f4f4 100%), url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat;
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff00), color-stop(59%, #f4f4f400), color-stop(100%, #f4f4f4)), url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat;
+                background: -webkit-linear-gradient(top, #ffffff00 50%, #f4f4f400 70%, #f4f4f4 100%), url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat;
+                background: -o-linear-gradient(top, #ffffff00 50%, #f4f4f400 70%, #f4f4f4 100%), url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat;background: -ms-linear-gradient(top, #ffffff00 50%, #f4f4f400 70%, #f4f4f4 100%), url(/gallery/archive/g02/bg01.jpg) no-repeat;
+                background: linear-gradient(to bottom, #ffffff00 50%, #f4f4f400 70%, #f4f4f4 100%), url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}') no-repeat;"
+        >
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
